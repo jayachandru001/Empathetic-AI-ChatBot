@@ -29,7 +29,7 @@ sentiment_clf = pipeline("text-classification", sentimentClf, tokenizer=loaded_t
 emotion_clf = pipeline("text-classification", emotionClf, tokenizer=loaded_tokenizer)
 
 # Configure the generative AI model with the API key
-user_secrets = UserSecretsClient()
+# user_secrets = UserSecretsClient()
 secret_value_0 = os.getenv('GOOGLE_API_KEY')
 secret_value_1 = os.getenv('HF_TOKEN')
 genai.configure(api_key=secret_value_0)
