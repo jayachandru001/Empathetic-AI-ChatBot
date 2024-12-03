@@ -11,7 +11,7 @@ EMO_NUM_CLASSES = 6
 SEN_NUM_CLASSES = 3
 
 # Load the tokenizer and base model for emotion classification and sentiment classification
-base_model_path = '/kaggle/input/llama-3.2/transformers/1b/1'
+base_model_path = 'meta-llama/Llama-3.2-1B'
 loaded_tokenizer = AutoTokenizer.from_pretrained(base_model_path)
 
 # Emotion classification model
