@@ -1,8 +1,3 @@
-!pip install -U peft==0.8.2
-!pip install gradio==5.7.1
-!pip install google-generativeai==0.8.3
-!pip install transformers==4.43.1
-
 import gradio as gr
 from transformers import AutoModelForCausalLM, AutoTokenizer, AutoModelForSequenceClassification
 from peft import PeftModel, PeftConfig
