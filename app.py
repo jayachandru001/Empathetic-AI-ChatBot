@@ -119,7 +119,7 @@ def chat_with_user(user_message, history, model_choice):
     # Return sentiment, emotion, and the AI's empathetic response
     history.append((
         f"User: {user_message}\nSentiment: {sentiment}\nEmotion: {emotion}",
-        f"Bot: {temp_response}"
+        f"AI: {temp_response}"
     ))
     return "", history
 
